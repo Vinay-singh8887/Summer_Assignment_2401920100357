@@ -12,6 +12,8 @@ public:
             secdiag+=mat[row-i-1][i];
         }
           int sum = primediag+secdiag;
+
+          
         return row%2!=0? sum-mat[row/2][row/2]:sum;
         
         
